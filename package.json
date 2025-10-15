@@ -8,8 +8,10 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "check-types": "turbo run check-types"
   },
+  "dependencies": {
+    "@tlev/configs": "git@github.com:TLEV6500/tlev_core.git#main"
+  },
   "devDependencies": {
-    "prettier": "^3.6.2",
     "turbo": "^2.5.8",
     "typescript": "5.9.2"
   },
